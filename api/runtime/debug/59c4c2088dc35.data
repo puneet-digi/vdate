@@ -1,0 +1,72 @@
+a:11:{s:6:"config";s:1629:"a:5:{s:10:"phpVersion";s:30:"5.6.30-5+deb.sury.org~trusty+2";s:10:"yiiVersion";s:6:"2.0.12";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.12";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:5:"en-US";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:30:"5.6.30-5+deb.sury.org~trusty+2";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:6:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.7.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:51:"/var/www/html/vdate/vendor/yiisoft/yii2-swiftmailer";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:49:"/var/www/html/vdate/vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.0.11.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:45:"/var/www/html/vdate/vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:43:"/var/www/html/vdate/vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:45:"/var/www/html/vdate/vendor/yiisoft/yii2-faker";}}s:16:"yiisoft/yii2-dev";a:3:{s:4:"name";s:16:"yiisoft/yii2-dev";s:7:"version";s:8:"2.0.12.0";s:5:"alias";a:1:{s:4:"@yii";s:53:"/var/www/html/vdate/vendor/yiisoft/yii2-dev/framework";}}}}";s:7:"request";s:3555:"a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:9:{s:4:"host";s:9:"localhost";s:10:"connection";s:10:"keep-alive";s:13:"cache-control";s:9:"max-age=0";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:103:"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36";s:15:"accept-encoding";s:19:"gzip, deflate, sdch";s:15:"accept-language";s:14:"en-US,en;q=0.8";s:6:"cookie";s:280:"advanced-backend=o8phd617nr351o06eqc1ikcot3; _csrf-backend=64a5841dfc50428200df419aa2d1c19516dafefb3ea8333d25fcb59d43d2a2f3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%95%2C%A4%F8%22%F8%94%C2%1Cy%0D%B7%BEa%04G%27%2B%E1%F1S%3C3%FCn%22%C8DC%28f%DC%22%3B%7D";}s:15:"responseHeaders";a:6:{s:24:"X-Pagination-Total-Count";s:2:"10";s:23:"X-Pagination-Page-Count";s:1:"1";s:25:"X-Pagination-Current-Page";s:1:"1";s:21:"X-Pagination-Per-Page";s:2:"20";s:4:"Link";s:82:"<http://localhost/vdate/api/web/index.php?r=v1%2Fcountry%2Findex&page=1>; rel=self";s:12:"Content-Type";s:30:"application/xml; charset=UTF-8";}s:5:"route";s:16:"v1/country/index";s:6:"action";s:27:"yii\rest\IndexAction::run()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:0:{}s:6:"SERVER";a:32:{s:9:"HTTP_HOST";s:9:"localhost";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:103:"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36";s:20:"HTTP_ACCEPT_ENCODING";s:19:"gzip, deflate, sdch";s:20:"HTTP_ACCEPT_LANGUAGE";s:14:"en-US,en;q=0.8";s:11:"HTTP_COOKIE";s:280:"advanced-backend=o8phd617nr351o06eqc1ikcot3; _csrf-backend=64a5841dfc50428200df419aa2d1c19516dafefb3ea8333d25fcb59d43d2a2f3a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%95%2C%A4%F8%22%F8%94%C2%1Cy%0D%B7%BEa%04G%27%2B%E1%F1S%3C3%FCn%22%C8DC%28f%DC%22%3B%7D";s:4:"PATH";s:60:"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin";s:16:"SERVER_SIGNATURE";s:69:"<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+";s:15:"SERVER_SOFTWARE";s:21:"Apache/2.4.7 (Ubuntu)";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:14:"/var/www/html/";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:14:"/var/www/html/";s:12:"SERVER_ADMIN";s:19:"webmaster@localhost";s:15:"SCRIPT_FILENAME";s:37:"/var/www/html/vdate/api/web/index.php";s:11:"REMOTE_PORT";s:5:"54269";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:12:"r=v1/country";s:11:"REQUEST_URI";s:37:"/vdate/api/web/index.php?r=v1/country";s:11:"SCRIPT_NAME";s:24:"/vdate/api/web/index.php";s:8:"PHP_SELF";s:24:"/vdate/api/web/index.php";s:18:"REQUEST_TIME_FLOAT";d:1506066952.5769999;s:12:"REQUEST_TIME";i:1506066952;}s:3:"GET";a:1:{s:1:"r";s:10:"v1/country";}s:4:"POST";a:0:{}s:6:"COOKIE";a:2:{s:16:"advanced-backend";s:26:"o8phd617nr351o06eqc1ikcot3";s:13:"_csrf-backend";s:139:"64a5841dfc50428200df419aa2d1c19516dafefb3ea8333d25fcb59d43d2a2f3a:2:{i:0;s:13:"_csrf-backend";i:1;s:32:"•,¤ø"ø”Ây·¾aG'+áñS<3ün"ÈDC(fÜ";}";}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}";s:3:"log";s:2868:"a:1:{s:8:"messages";a:15:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1506066952.5790279;i:4;a:0:{}i:5;i:806752;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1506066952.5790629;i:4;a:0:{}i:5;i:808448;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1506066952.5805049;i:4;a:0:{}i:5;i:1137796;}i:3;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1506066952.580791;i:4;a:0:{}i:5;i:1171172;}i:4;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1506066952.58092;i:4;a:0:{}i:5;i:1192832;}i:6;a:6:{i:0;s:29:"Route requested: 'v1/country'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1506066952.58114;i:4;a:0:{}i:5;i:1228116;}i:7;a:6:{i:0;s:18:"Loading module: v1";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1506066952.581162;i:4;a:0:{}i:5;i:1231212;}i:8;a:6:{i:0;s:30:"Route to run: v1/country/index";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1506066952.581785;i:4;a:0:{}i:5;i:1392132;}i:9;a:6:{i:0;s:39:"Rate limit skipped: user not logged in.";i:1;i:4;i:2;s:37:"yii\filters\RateLimiter::beforeAction";i:3;d:1506066952.5822661;i:4;a:0:{}i:5;i:1471620;}i:10;a:6:{i:0;s:43:"Running action: yii\rest\IndexAction::run()";i:1;i:8;i:2;s:30:"yii\base\Action::runWithParams";i:3;d:1506066952.582314;i:4;a:0:{}i:5;i:1469768;}i:11;a:6:{i:0;s:30:"SELECT COUNT(*) FROM `country`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5833759;i:4;a:0:{}i:5;i:1811452;}i:12;a:6:{i:0;s:56:"Opening DB connection: mysql:host=localhost;dbname=vdate";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1506066952.5834479;i:4;a:0:{}i:5;i:1815124;}i:17;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5845301;i:4;a:0:{}i:5;i:1844644;}i:20;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5856299;i:4;a:0:{}i:5;i:1859956;}i:23;a:6:{i:0;s:32:"SELECT * FROM `country` LIMIT 20";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5863681;i:4;a:0:{}i:5;i:1890912;}}}";s:9:"profiling";s:2728:"a:3:{s:6:"memory";i:1933084;s:4:"time";d:0.010758876800537109;s:8:"messages";a:10:{i:13;a:6:{i:0;s:56:"Opening DB connection: mysql:host=localhost;dbname=vdate";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1506066952.583492;i:4;a:0:{}i:5;i:1815776;}i:14;a:6:{i:0;s:56:"Opening DB connection: mysql:host=localhost;dbname=vdate";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1506066952.5839109;i:4;a:0:{}i:5;i:1823244;}i:15;a:6:{i:0;s:30:"SELECT COUNT(*) FROM `country`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.583986;i:4;a:0:{}i:5;i:1821404;}i:16;a:6:{i:0;s:30:"SELECT COUNT(*) FROM `country`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.584269;i:4;a:0:{}i:5;i:1822108;}i:18;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5845931;i:4;a:0:{}i:5;i:1845024;}i:19;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.585294;i:4;a:0:{}i:5;i:1849372;}i:21;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5856919;i:4;a:0:{}i:5;i:1861400;}i:22;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5861039;i:4;a:0:{}i:5;i:1862384;}i:24;a:6:{i:0;s:32:"SELECT * FROM `country` LIMIT 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.586416;i:4;a:0:{}i:5;i:1891296;}i:25;a:6:{i:0;s:32:"SELECT * FROM `country` LIMIT 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5866621;i:4;a:0:{}i:5;i:1896764;}}}";s:2:"db";s:2327:"a:1:{s:8:"messages";a:8:{i:15;a:6:{i:0;s:30:"SELECT COUNT(*) FROM `country`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.583986;i:4;a:0:{}i:5;i:1821404;}i:16;a:6:{i:0;s:30:"SELECT COUNT(*) FROM `country`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.584269;i:4;a:0:{}i:5;i:1822108;}i:18;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5845931;i:4;a:0:{}i:5;i:1845024;}i:19;a:6:{i:0;s:32:"SHOW FULL COLUMNS FROM `country`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.585294;i:4;a:0:{}i:5;i:1849372;}i:21;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5856919;i:4;a:0:{}i:5;i:1861400;}i:22;a:6:{i:0;s:601:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'country' AND kcu.table_name = 'country'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5861039;i:4;a:0:{}i:5;i:1862384;}i:24;a:6:{i:0;s:32:"SELECT * FROM `country` LIMIT 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.586416;i:4;a:0:{}i:5;i:1891296;}i:25;a:6:{i:0;s:32:"SELECT * FROM `country` LIMIT 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1506066952.5866621;i:4;a:0:{}i:5;i:1896764;}}}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:92:"a:3:{s:5:"start";d:1506066952.577749;s:3:"end";d:1506066952.5886221;s:6:"memory";i:1933084;}";s:4:"user";s:2:"N;";s:6:"router";s:205:"a:1:{s:8:"messages";a:1:{i:5;a:6:{i:0;s:56:"Pretty URL not enabled. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1506066952.581109;i:4;a:0:{}i:5;i:1228608;}}}";s:7:"summary";a:9:{s:3:"tag";s:13:"59c4c2088dc35";s:3:"url";s:53:"http://localhost/vdate/api/web/index.php?r=v1/country";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1506066952.5769999;s:10:"statusCode";i:200;s:8:"sqlCount";i:4;s:9:"mailCount";i:0;}s:10:"exceptions";a:0:{}}

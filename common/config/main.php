@@ -4,6 +4,11 @@ return [
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',
-        ],
+        ]
     ],
+	'modules' => [
+        'admin' => [
+            'class' => 'app\rest\Module',
+        ],
+    ],       
 ];

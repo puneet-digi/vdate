@@ -14,10 +14,17 @@ return [
     'modules' => [
         'v1' => [
             'basePath' => '@app/modules/v1',
-            'class' => 'api\modules\v1\Module'   // here is our v1 modules
+            'class' => 'app\modules\v1\Module'   // here is our v1 modules
         ]
     ],
     'components' => [
+       'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=vdate',
+            'username' => 'root',
+            'password' => '123',
+            'charset' => 'utf8',
+        ],    
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => false,
@@ -32,19 +39,11 @@ return [
             ],
         ],
         'urlManager' => [
-            'enablePrettyUrl' => true,
-            'enableStrictParsing' => true,
-            'showScriptName' => false,
+            'enablePrettyUrl' => false,
+            'showScriptName' => true,
             'rules' => [
-                [
-                    'class' => 'yii\rest\UrlRule',
-                    'controller' => 'v1/country'   // our country api rule,
-                    'tokens' => [
-                        '{id}' => '<id:\\w+>'
-                    ]
-                ]
             ],
-        ]
+        ],        
     ],
     'params' => $params,
 ];
