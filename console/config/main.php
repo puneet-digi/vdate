@@ -24,6 +24,7 @@ return [
             'username' => 'root',
             'password' => '123',
             'charset' => 'utf8',
+            'tablePrefix' => 'vdate_',
         ],        
         'log' => [
             'targets' => [
