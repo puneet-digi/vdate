@@ -17,14 +17,7 @@ return [
             'class' => 'app\modules\v1\Module'   // here is our v1 modules
         ]
     ],
-    'components' => [
-       'db' => [
-            'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=vdate',
-            'username' => 'root',
-            'password' => '123',
-            'charset' => 'utf8',
-        ],    
+    'components' => [    
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => false,

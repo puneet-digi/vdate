@@ -18,6 +18,13 @@ return [
           ],
     ],
     'components' => [
+        'db' => [
+            'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=localhost;dbname=vdate',
+            'username' => 'root',
+            'password' => '123',
+            'charset' => 'utf8',
+        ],        
         'log' => [
             'targets' => [
                 [

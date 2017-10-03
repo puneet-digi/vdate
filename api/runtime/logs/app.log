@@ -3331,3 +3331,163 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1506067264.979
     'REQUEST_TIME' => 1506067264
 ]
+2017-10-03 09:30:29 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "".' in /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Module.php:532
+Stack trace:
+#0 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/web/Application.php(102): yii\base\Module->runAction('', Array)
+#1 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /var/www/html/vdate/api/web/index.php(21): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/web/Application.php:114
+Stack trace:
+#0 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/vdate/api/web/index.php(21): yii\base\Application->run()
+#2 {main}
+2017-10-03 09:30:29 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'io' => 'q8Pn6Ozip03DR49pAAAM'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/vdate/api/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'io=q8Pn6Ozip03DR49pAAAM'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/vdate/api/web/index.php'
+    'REMOTE_PORT' => '51819'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/vdate/api/web/'
+    'SCRIPT_NAME' => '/vdate/api/web/index.php'
+    'PHP_SELF' => '/vdate/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507023028.379
+    'REQUEST_TIME' => 1507023028
+]
+2017-10-03 10:02:29 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: data' in /var/www/html/vdate/api/modules/v1/controllers/ApiController.php:20
+Stack trace:
+#0 /var/www/html/vdate/api/modules/v1/controllers/ApiController.php(20): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/var/www/html/v...', 20, Array)
+#1 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Object.php(107): app\modules\v1\controllers\ApiController->init()
+#2 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Controller.php(86): yii\base\Object->__construct(Array)
+#3 [internal function]: yii\base\Controller->__construct('country', Object(app\modules\v1\Module), Array)
+#4 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#5 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/di/Container.php(156): yii\di\Container->build('app\\modules\\v1\\...', Array, Array)
+#6 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/BaseYii.php(344): yii\di\Container->get('app\\modules\\v1\\...', Array)
+#7 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Module.php(638): yii\BaseYii::createObject('app\\modules\\v1\\...', Array)
+#8 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Module.php(591): yii\base\Module->createControllerByID('country')
+#9 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Module.php(583): yii\base\Module->createController('country')
+#10 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Module.php(517): yii\base\Module->createController('v1/country/')
+#11 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/web/Application.php(102): yii\base\Module->runAction('v1/country/', Array)
+#12 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /var/www/html/vdate/api/web/index.php(21): yii\base\Application->run()
+#14 {main}
+2017-10-03 10:02:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'v1/country/'
+]
+
+$_COOKIE = [
+    'io' => '94VXaxUazFD6K7DLAAAQ'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'io=94VXaxUazFD6K7DLAAAQ'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/vdate/api/web/index.php'
+    'REMOTE_PORT' => '51901'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/country/'
+    'REQUEST_URI' => '/vdate/api/web/index.php?r=v1/country/'
+    'SCRIPT_NAME' => '/vdate/api/web/index.php'
+    'PHP_SELF' => '/vdate/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507024949.6
+    'REQUEST_TIME' => 1507024949
+]
+2017-10-03 10:03:45 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\modules\v1\controllers\ContentNegotiator' not found' in /var/www/html/vdate/api/modules/v1/controllers/ApiController.php:22
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-03 10:03:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'v1/country/'
+]
+
+$_COOKIE = [
+    'io' => '94VXaxUazFD6K7DLAAAQ'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'io=94VXaxUazFD6K7DLAAAQ'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/vdate/api/web/index.php'
+    'REMOTE_PORT' => '51903'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=v1/country/'
+    'REQUEST_URI' => '/vdate/api/web/index.php?r=v1/country/'
+    'SCRIPT_NAME' => '/vdate/api/web/index.php'
+    'PHP_SELF' => '/vdate/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507025025.922
+    'REQUEST_TIME' => 1507025025
+]
