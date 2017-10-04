@@ -18,9 +18,9 @@ class m130524_201442_init extends Migration
             'email' => $this->string()->notNull()->unique(),
             'gender' => $this->integer(),
             'dob' => $this->date(),
-            'nationality' => $this->string(),
+            'country' => $this->string(),
             'orientation' => $this->integer(),
-            'auth_key' => $this->string(32)->notNull(),
+            'auth_key' => $this->string(32),
             'password_hash' => $this->string()->notNull(),
             'password_reset_token' => $this->string()->unique(),
             'status' => $this->smallInteger()->notNull()->defaultValue(10),
@@ -32,6 +32,25 @@ class m130524_201442_init extends Migration
             'created_by' => $this->integer(11),
             'updated_by' => $this->integer(11),
         ], $tableOptions);
+        $this->insert('{{%user}}', [
+              'username' => 'admin',
+              'email' => 'admin@veedater.com',
+              'gender' => '1',
+              'dob' => '1980-01-01',
+              'country' => 'india',
+              'orientation' => '0',
+              'auth_key' => Yii::$app->security->generateRandomKey(),
+              'password_hash' => Yii::$app->security->generatePasswordHash('digi#123'),
+              'password_reset_token' => null,
+              'status' => true,
+              'is_approved' => true,
+              'address_id' => null,
+              'subscription' => null,
+              'created_at' => date('Y-m-d h:i:s'),
+              'updated_at' => date('Y-m-d h:i:s'),
+              'created_by' => 1,
+              'updated_by' => 1
+          ]);
     }
 
     public function down()
