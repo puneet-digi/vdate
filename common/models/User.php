@@ -26,6 +26,7 @@ class User extends ActiveRecord implements IdentityInterface
     const STATUS_DELETED = 0;
     const STATUS_ACTIVE = 10;
 
+    public $password;
 
     /**
      * @inheritdoc
@@ -49,13 +50,48 @@ class User extends ActiveRecord implements IdentityInterface
      * @inheritdoc
      */
     public function rules()
-    {
+    {      
         return [
             ['status', 'default', 'value' => self::STATUS_ACTIVE],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_DELETED]],
+            [['username', 'email', 'password', 'password_hash', 'created_at', 'updated_at'], 'required'],
+            [['gender', 'orientation', 'status', 'is_approved', 'address_id', 'subscription', 'created_by', 'updated_by'], 'integer'],
+            [['dob', 'created_at', 'updated_at'], 'safe'],
+            [['username', 'email', 'country', 'password_hash', 'password_reset_token'], 'string', 'max' => 255],
+            [['auth_key'], 'string', 'max' => 32],
+            [['username'], 'unique'],
+            [['email'], 'unique'],
+            [['password_reset_token'], 'unique']          
         ];
     }
-
+    
+    /**
+     * @inheritdoc
+     */
+    public function attributeLabels()
+    {
+        return [
+            'id' => 'ID',
+            'username' => 'Username',
+            'email' => 'Email',
+            'gender' => 'Gender',
+            'dob' => 'Dob',
+            'country' => 'Country',
+            'orientation' => 'Orientation',
+            'auth_key' => 'Auth Key',
+            'password_hash' => 'Password Hash',
+            'password_reset_token' => 'Password Reset Token',
+            'status' => 'Status',
+            'is_approved' => 'Is Approved',
+            'address_id' => 'Address ID',
+            'subscription' => 'Subscription',
+            'created_at' => 'Created At',
+            'updated_at' => 'Updated At',
+            'created_by' => 'Created By',
+            'updated_by' => 'Updated By',
+        ];
+    }
+    
     /**
      * @inheritdoc
      */
@@ -185,5 +221,59 @@ class User extends ActiveRecord implements IdentityInterface
     public function removePasswordResetToken()
     {
         $this->password_reset_token = null;
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBlocklists()
+    {
+        return $this->hasMany(Blocklist::className(), ['blocked_by_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getBlocklists0()
+    {
+        return $this->hasMany(Blocklist::className(), ['blocked_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getMetaValues()
+    {
+        return $this->hasMany(MetaValue::className(), ['user_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getMetaValues0()
+    {
+        return $this->hasMany(MetaValue::className(), ['user_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getSubscriptions()
+    {
+        return $this->hasMany(Subscription::className(), ['user_id' => 'id']);
+    }
+
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getVideoMaps()
+    {
+        return $this->hasMany(VideoMap::className(), ['user_id' => 'id']);
+    }
+ 
+    public function save($runValidation = true, $attributeNames = null)
+    {
+      $this->setPassword($this->password);
+      return parent::save($runValidation, $attributeNames);
     }
 }

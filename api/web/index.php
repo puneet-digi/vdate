@@ -13,9 +13,4 @@ $config = yii\helpers\ArrayHelper::merge(
     require(__DIR__ . '/../config/main.php'),
     require(__DIR__ . '/../config/main-local.php')
 );
-function c($exp, $dump = false){
-	echo '<pre>';
-	(!$dump ? print_r($exp) : var_dump($exp));
-	echo '</pre>';
-}
 (new yii\web\Application($config))->run();

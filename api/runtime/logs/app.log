@@ -3491,3 +3491,303 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1507025025.922
     'REQUEST_TIME' => 1507025025
 ]
+2017-10-05 09:15:53 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';'' in /var/www/html/vdate/api/modules/v1/controllers/UserController.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-05 09:15:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'v1/user/signup'
+]
+
+$_POST = [
+    'User' => [
+        'username' => 'puneet'
+        'email' => 'puneet@yopmail.com'
+        'gender' => '1'
+        'dob' => '1987-02-18'
+        'country' => 'puneet@yopmail.com'
+        'orientation' => '0'
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '696'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary2AoBMShKDvAzxn1y'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => 'ccec9705-7a86-7320-5975-8df24298545d'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/vdate/api/web/index.php'
+    'REMOTE_PORT' => '49564'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=v1/user/signup'
+    'REQUEST_URI' => '/vdate/api/web/index.php?r=v1/user/signup'
+    'SCRIPT_NAME' => '/vdate/api/web/index.php'
+    'PHP_SELF' => '/vdate/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507194953.934
+    'REQUEST_TIME' => 1507194953
+]
+2017-10-05 11:53:33 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'c' (T_STRING)' in /var/www/html/vdate/api/modules/v1/controllers/UserController.php:26
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-05 11:53:33 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'v1/user/signup'
+]
+
+$_POST = [
+    'User' => [
+        'username' => 'puneet'
+        'email' => 'puneet@yopmail.com'
+        'gender' => '1'
+        'dob' => '1987-02-18'
+        'country' => 'puneet@yopmail.com'
+        'orientation' => '0'
+        'password' => '123'
+        'created_at' => '2017-10-12'
+        'updated_at' => '2017-10-12'
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1026'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryOFPTc1iym7VD8SpU'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '8ddab742-f162-b686-53fc-307fa7ad67ad'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/vdate/api/web/index.php'
+    'REMOTE_PORT' => '49746'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=v1/user/signup'
+    'REQUEST_URI' => '/vdate/api/web/index.php?r=v1/user/signup'
+    'SCRIPT_NAME' => '/vdate/api/web/index.php'
+    'PHP_SELF' => '/vdate/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507204413.129
+    'REQUEST_TIME' => 1507204413
+]
+2017-10-05 12:00:22 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Declaration of common\models\User::save() must be compatible with yii\db\ActiveRecordInterface::save($runValidation = true, $attributeNames = NULL)' in /var/www/html/vdate/common/models/User.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-05 12:00:22 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'v1/user/signup'
+]
+
+$_POST = [
+    'User' => [
+        'username' => 'puneet'
+        'email' => 'puneet@yopmail.com'
+        'gender' => '1'
+        'dob' => '1987-02-18'
+        'country' => 'puneet@yopmail.com'
+        'orientation' => '0'
+        'password' => '123'
+        'created_at' => '2017-10-12'
+        'updated_at' => '2017-10-12'
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1026'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryxokImJkSVYxVojPV'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '80cd9294-9707-f755-ae12-fbc7c9656caa'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/vdate/api/web/index.php'
+    'REMOTE_PORT' => '49754'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=v1/user/signup'
+    'REQUEST_URI' => '/vdate/api/web/index.php?r=v1/user/signup'
+    'SCRIPT_NAME' => '/vdate/api/web/index.php'
+    'PHP_SELF' => '/vdate/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507204822.887
+    'REQUEST_TIME' => 1507204822
+]
+2017-10-05 12:00:46 [127.0.0.1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Declaration of common\models\User::save() must be compatible with yii\db\ActiveRecordInterface::save($runValidation = true, $attributeNames = NULL)' in /var/www/html/vdate/common/models/User.php:24
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-10-05 12:00:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'v1/user/signup'
+]
+
+$_POST = [
+    'User' => [
+        'username' => 'puneet'
+        'email' => 'puneet@yopmail.com'
+        'gender' => '1'
+        'dob' => '1987-02-18'
+        'country' => 'puneet@yopmail.com'
+        'orientation' => '0'
+        'password' => '123'
+        'created_at' => '2017-10-12'
+        'updated_at' => '2017-10-12'
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1026'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryCFuoopbVNjQpBQBj'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '72a42302-b666-4d75-7874-8f274de53dc8'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/vdate/api/web/index.php'
+    'REMOTE_PORT' => '49755'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=v1/user/signup'
+    'REQUEST_URI' => '/vdate/api/web/index.php?r=v1/user/signup'
+    'SCRIPT_NAME' => '/vdate/api/web/index.php'
+    'PHP_SELF' => '/vdate/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507204846.292
+    'REQUEST_TIME' => 1507204846
+]
+2017-10-05 12:14:52 [127.0.0.1][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant null1 - assumed 'null1'' in /var/www/html/vdate/common/models/User.php:274
+Stack trace:
+#0 /var/www/html/vdate/common/models/User.php(274): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/var/www/html/v...', 274, Array)
+#1 /var/www/html/vdate/api/modules/v1/controllers/UserController.php(27): common\models\User->save()
+#2 [internal function]: app\modules\v1\controllers\UserController->actionSignup()
+#3 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#5 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Module.php(523): yii\base\Controller->runAction('signup', Array)
+#6 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/web/Application.php(102): yii\base\Module->runAction('v1/user/signup', Array)
+#7 /var/www/html/vdate/vendor/yiisoft/yii2-dev/framework/base/Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /var/www/html/vdate/api/web/index.php(16): yii\base\Application->run()
+#9 {main}
+2017-10-05 12:14:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'v1/user/signup'
+]
+
+$_POST = [
+    'User' => [
+        'username' => 'puneet'
+        'email' => 'puneet@yopmail.com'
+        'gender' => '1'
+        'dob' => '1987-02-18'
+        'country' => 'puneet@yopmail.com'
+        'orientation' => '0'
+        'password' => '123'
+        'created_at' => '2017-10-12'
+        'updated_at' => '2017-10-12'
+    ]
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '1026'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ORIGIN' => 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundaryoB7LASE2sRxnUmjd'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36'
+    'HTTP_POSTMAN_TOKEN' => '16c60cb3-6d2e-8142-b465-44f5d0e7003a'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/vdate/api/web/index.php'
+    'REMOTE_PORT' => '49774'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=v1/user/signup'
+    'REQUEST_URI' => '/vdate/api/web/index.php?r=v1/user/signup'
+    'SCRIPT_NAME' => '/vdate/api/web/index.php'
+    'PHP_SELF' => '/vdate/api/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1507205691.45
+    'REQUEST_TIME' => 1507205691
+]

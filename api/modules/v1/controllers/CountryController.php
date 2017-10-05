@@ -13,11 +13,12 @@ use app\modules\v1\controllers\ApiController;
 
 class CountryController extends ApiController
 {
+	
+  public $modelClass = '\common\models\Country';
 
-	public $modelClass = '\common\models\Country';
-
-    public function actionList(){
-    	$country = new \common\models\Country();
-    }
+    
+  public function actionList(){
+    $country = new \common\models\Country();    
+  }
 
 }
